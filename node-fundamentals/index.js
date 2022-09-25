@@ -1,4 +1,3 @@
-const math = require("./math");
+const data = require("./data");
 
-console.log(math.add(16, 26));
-console.log(math.subtract(16, 26));
+console.log(data);
