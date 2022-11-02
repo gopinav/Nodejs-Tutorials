@@ -14,3 +14,19 @@ fs.readFile("./file.txt", "utf-8", (err, data) => {
 });
 
 console.log("Third");
+
+fs.writeFileSync("./greet.txt", "Hello World");
+fs.writeFile(
+  "./greet.txt",
+  " Hello Vishwas",
+  {
+    flag: "a",
+  },
+  (err) => {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log("File written");
+    }
+  }
+);
