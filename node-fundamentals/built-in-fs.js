@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require("node:fs");
 
 console.log("First");
 const fileContents = fs.readFileSync("./file.txt", "utf8");
