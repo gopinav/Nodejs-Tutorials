@@ -1,0 +1,44 @@
+{
+  "name": "my-custom-package-1",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "my-custom-package-1",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "upper-case": "^2.0.2"
+      }
+    },
+    "node_modules/tslib": {
+      "version": "2.4.1",
+      "resolved": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz",
+      "integrity": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA=="
+    },
+    "node_modules/upper-case": {
+      "version": "2.0.2",
+      "resolved": "https://registry.npmjs.org/upper-case/-/upper-case-2.0.2.tgz",
+      "integrity": "sha512-KgdgDGJt2TpuwBUIjgG6lzw2GWFRCW9Qkfkiv0DxqHHLYJHmtmdUIKcZd8rHgFSjopVTlw6ggzCm1b8MFQwikg==",
+      "dependencies": {
+        "tslib": "^2.0.3"
+      }
+    }
+  },
+  "dependencies": {
+    "tslib": {
+      "version": "2.4.1",
+      "resolved": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz",
+      "integrity": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA=="
+    },
+    "upper-case": {
+      "version": "2.0.2",
+      "resolved": "https://registry.npmjs.org/upper-case/-/upper-case-2.0.2.tgz",
+      "integrity": "sha512-KgdgDGJt2TpuwBUIjgG6lzw2GWFRCW9Qkfkiv0DxqHHLYJHmtmdUIKcZd8rHgFSjopVTlw6ggzCm1b8MFQwikg==",
+      "requires": {
+        "tslib": "^2.0.3"
+      }
+    }
+  }
+}
